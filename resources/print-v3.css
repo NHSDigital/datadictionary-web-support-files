@@ -1,0 +1,428 @@
+/* ##### Common Styles ##### */
+
+body {
+  color: black;
+  background-color: rgb(255,255,255);
+  font-family: verdana, helvetica, arial, sans-serif;
+  font-size: 71%;  /* Enables font size scaling in MSIE */
+  margin: 0;
+  padding: 0;
+}
+
+html > body {
+  font-size: 8.5pt;
+}
+
+.border {   
+  border-color: #0072C6; 
+  border-style: solid; 
+  border-width: 1;
+}
+
+h5 {
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+acronym, .titleTip {
+  border-bottom: 1px dotted rgb(153,153,153);
+  cursor: help;
+  margin: 0;
+  padding: 0 0 0.4px 0;
+}
+
+.doNotDisplay {
+  display: none;
+}
+
+.doNotPrint {
+  display: none;
+}
+
+.smallCaps {
+  font-size: 110%;
+  font-variant: small-caps;
+}
+
+.image-fix {
+  padding: 5mm 0 0 0;
+  width:99%;
+}
+
+.blankedLink  {
+  color: black; 
+ } 
+ 
+.inserted  { 
+  background-color: #C0F0F6;
+  color: black;
+ }
+
+.changeItem{
+  color: black;
+  text-decoration:none;
+  width: 100%;
+}
+
+.xmlFragment{
+  width:99%;
+  height:400px;
+  overflow:scroll;
+  border:1px solid black;
+  margin-top:10px;
+}
+
+div.changeItem table{
+  width:100%;
+}
+
+div.fullWidth table{
+  width:100%;
+}
+
+.fullWidth{
+  width:100%;
+}
+
+.diagramChangeItem{
+  page-break-before:always;
+}
+
+.duckblue, .ducklbg, .duckbcbg, .duckbcbg9, .duckbcbg8, .duckbrbg, .duckcbg, .duckrbg {
+  background-color: #005EB8;
+  color: white; }
+
+.skyblue, .skybg, .skyblbg, .skybcbg, .skybrbg, .skylbg, .skycbg, .skyrbg {
+  background-color: #80a0b0;
+  color: white; }
+
+
+/* ##### Header ##### */
+
+.superHeader {
+  display:none;
+} 
+
+.midHeader {
+  display: none;
+}
+
+.headerTitle {
+  font-size: 337%;
+  font-weight: normal;
+  margin: 0 0 0 4mm;
+  padding: 0.25ex 0;
+}
+
+.subHeader {
+  color: white;
+  background-color: rgb(0,51,153);
+  margin: 0;
+  padding: 1ex 1ex 1ex 1.5mm;
+  display: none;
+}
+
+.subHeader a {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0;
+  padding: 0 0.75ex 0 0.5ex;
+  display: none;
+}  
+
+.subHeader a:hover {
+  text-decoration: underline;
+  display: none;
+}
+
+.superHeader .highlight, .subHeader .highlight {
+  color: rgb(253,160,91);
+  background-color: transparent;
+}
+
+
+/* ##### Side Bar ##### */
+
+#side-bar {
+  display: none;
+}
+
+.tinytext {
+  font-face: Arial Narrow;
+}
+
+.thisPage {
+  color: black;
+  background-color: white;
+  padding-left: 4mm;
+  border-top: 1px solid rgb(153,153,153);
+  border-bottom: 1px solid rgb(153,153,153);
+}
+
+.lighterBackground {
+  color: inherit;
+  background-color: white;
+}
+
+
+/* ##### Main Copy ##### */
+
+.classtitlebar{
+  font-size: 1.3em;
+  font-weight: bold;
+  color: black;
+  float:left;
+  background-color:#666666;
+}
+.classtitlebarchangelog{
+  font-size: 1.3em;
+  font-weight: bold;
+  color: black;
+  text-align:right;
+  float:right;
+}
+
+#main-copy .titlebarlink{
+  color:black;
+  text-decoration:none;
+  float:left;
+}
+.attributetitlebar{
+  font-size: 1.3em;
+  font-weight: bold;
+  color: black;
+  float:left;
+}
+.attributetitlebarchangelog{
+  font-size: 1.3em;
+  font-weight: bold;
+  color: black;
+  text-align:right;
+  float:right;
+}
+
+.dataelementtitlebar{
+  font-size: 1.3em;
+  font-weight: bold;
+  color: black;
+  float:left;
+}
+.dataelementtitlebarchangelog{
+  font-size: 1.3em;
+  font-weight: bold;
+  color: black;
+  text-align:right;
+  float:right;
+}
+
+.standardtitlebar{
+  vertical-align:middle;
+  background-color: #003B7D;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: White;
+  margin: 0 0 0 0;
+  border-width: 0;
+  float:left;
+  padding-left:3px;
+  padding-right:2px;
+  padding-bottom:1px;
+  padding-top:1px;
+}
+
+.standardtitlebarchangelog{
+  vertical-align:middle;
+  background-color: #003B7D;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: White;
+  margin: 0 0 0 0;
+  border-width: 0;
+  padding-right: 3px;
+  text-align:right;
+  padding-bottom:1px;
+  padding-top:1px;
+}
+
+#main-copy img {
+  width:150mm;
+  height:180mm;
+}
+
+#main-copy .titlebarwrapper{
+  padding-left;0px;
+  margin-left:0px;
+  border-left:0px;
+}
+
+#main-copy {
+  color: black;
+  background-color: white;
+  text-align: justify;
+  line-height: 1.5em;
+}
+
+#main-copy p {
+  margin: 1.5em 0 1em 0;
+}
+
+#main-copy a {
+  color: rgb(0,102,204);
+  text-decoration: underline;
+}
+
+#main-copy a:hover {
+  text-decoration: none;
+}
+
+#main-copy h1 {
+  color: rgb(0,102,204);
+  background-color: transparent;
+  font-size: 145.5%;
+  font-weight: bold;
+  margin: 2em 0 0 0;
+  padding: 0.5ex 0 0.5ex 0.6ex;
+  border-bottom: 1px solid rgb(0,102,204);
+}
+
+#main-copy th{
+  font-family:verdana, helvetica, arial, sans-serif;
+  font-weight:bold;
+  font-size:71%;
+  vertical-align: top; 
+}
+
+#main-copy td{
+  font-family:verdana, helvetica, arial, sans-serif;
+  font-weight:normal;
+  font-size:71%;
+  vertical-align: top;  
+}
+
+#main-copy .topOfPage {
+  display:none;
+}
+
+
+dl {
+  margin: 1em 1ex 2em 1ex;
+  padding: 0;
+}
+
+dt {
+  font-weight: bold;
+  margin: 0 0 0 0;
+  padding: 0;
+}
+
+dd {
+  margin: 0 0 2em 2em;
+  padding: 0;
+}
+
+#main-copy a.specialisttoolbarlinkbutton{
+  display:none;
+}
+
+#main-copy a.specialisttoolbarbottomlinkbutton{
+  display:none;
+}
+
+#main-copy a.specialisttoolbarlinkcurrent{
+  color: rgb(0,102,204);
+  font-weight: bold;
+  font-size:1.3em;
+  text-align:left;
+  text-decoration:none;
+  border:1px dotted black;
+}
+
+#main-copy a.specialisttoolbarlink{
+  display:none;
+}
+
+#main-copy .specialisttoolbartop{
+  width:auto;
+}
+
+#main-copy .specialisttoolbartopnonav{
+  display:none;
+}
+
+#main-copy .specialisttoolbarbottom{
+  color:black;
+}
+
+#main-copy span{
+  display:inline;
+}
+
+/* ##### Footer ##### */
+
+#footer {
+  display:none;
+}
+
+select, input {
+  font-size: 8.5pt;
+  font-face: Geneva, Helvetica, Arial, sans-serif;
+}
+/* ##### up and down text ##### */
+
+.clsHorizLR { 
+  writing-mode:lr-tb; 
+}
+.clsHorizRL { 
+  writing-mode:rl-tb; 
+}
+.clsVertTB  { 
+  writing-mode:tb-rl;
+}
+.clsVertBT  { 
+  writing-mode:bt-rl; 
+}
+
+
+#change-request, #change-request td, #change-request .changeItem {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12pt;
+  line-height: 125%;
+}
+
+#change-request .header {
+  margin: 0 0 40px 0;
+}
+
+#change-request .header .nhs-data-model-and-dictionary {
+  float: left;
+  width: auto;
+  height: auto;
+}
+
+#change-request .header .nhs-digital {
+  float: right;
+  width: auto;
+  height: auto;
+}
+
+#change-request .header:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#certification {
+  clear: both;
+}
+
+#iso-9001 {
+  padding: 40px 0 0 0;
+}
